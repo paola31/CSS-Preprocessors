@@ -11,7 +11,8 @@
 	top: -22px;
 	margin: auto;
 }
-.backgrounds {
+
+.hero__backgrounds {
 	background: url(/assets/BackgroundHeader.png) no-repeat center;
 	width: 1200px;
 	height: 822px;
@@ -19,7 +20,8 @@
 	top: 0px;
 	margin-left: 115px;
 }
-.hero-block {
+
+.hero__block {
 	flex: 100%;
 	display: flex;
 	position: absolute;
@@ -28,7 +30,8 @@
 	left: 387px;
 	top: 252px;
 }
-.logo1 {
+
+.hero__logo1 {
 	position: absolute;
 	width: 43px;
 	height: 43px;
@@ -36,7 +39,16 @@
 	top: 0px;
 	z-index: 50;
 }
-.h1Header {
+
+.hero__image-animation {
+    transition: all 0.3s ease-in-out;
+}
+  
+.hero__image-animation:hover {
+    transform: scale(1.8) rotateY(180deg);
+}
+
+.hero__h1-header {
 	color: #FFFF;
 	font-family: 'Oswald', sans-serif;
 	font-style: normal;
@@ -49,7 +61,8 @@
 	left: 30px;
 	top: 50px;
 }
-.textHeader {
+
+.hero__text-header {
 	color: rgba(255, 255, 255, 0.7);
 	font-family: 'Source Sans Pro', sans-serif;
 	font-style: normal;
@@ -63,15 +76,8 @@
 	left: 50px;
 	top: 250px;
 }
-.moving-stars {
-	position: absolute;
-	right: -20px;
-	bottom: -264px;
-	animation: move 5s ease-in-out infinite;
-	opacity: 0.8;
-}
 
-.moving-stars {
+.hero__moving-stars {
     position: absolute;
     right: -20px;
     bottom: -264px;
@@ -91,7 +97,7 @@
     }
 }
 
-.fade-stars {
+.hero__fade-stars {
     position: absolute;
     bottom: -68px;
     right: 14px;
