@@ -1,0 +1,83 @@
+.header {
+  flex-direction: row;
+  row-gap: 500%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  -ms-grid-row-span: 50%;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  left: 500px;
+}
+.header .menu {
+  display: none;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 20px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.header .menu .navbar-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px;
+  left: 460px;
+  z-index: 10;
+  align-items: center;
+}
+.header .menu .navbar-small .navbar-brand {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.header .menu .navbar-small .righter {
+  margin-left: 500%;
+}
+.header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px;
+  left: 500px;
+  z-index: 10;
+}
+.header .navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.header .navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 150px;
+}
+.header .navbar .navbar-nav .nav-item {
+  margin: 0 10px;
+  color: white;
+}
+.header .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */

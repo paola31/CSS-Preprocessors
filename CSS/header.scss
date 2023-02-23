@@ -1,0 +1,93 @@
+.header {
+    flex-direction: row;
+    row-gap: 500%;    
+    max-width: fit-content;
+    -ms-grid-row-span: 50%;
+    display: flex;
+    font-family: $main-font-family;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    left: 500px;
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #f1f1f1;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+
+        .navbar-small {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            color: rgba(255, 255, 255, 1);
+            font-family: $main-font-family;
+            padding: 20px;
+            left: 460px;
+            z-index: 10;
+            align-items: center;
+
+            .navbar-brand {
+                font-weight: bold;
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+                font-family: $main-font-family;
+            }
+
+            .righter {
+                margin-left: 500%;
+            }
+        }
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        color: rgba(255, 255, 255, 1);
+        font-family: $main-font-family;
+        padding: 20px;
+        left: 500px;
+        z-index: 10;
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            font-family: $main-font-family;
+
+            
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-left: 150px;
+
+            .nav-item {
+                margin: 0 10px;
+                color: white;
+
+                .nav-link {
+                    font-size: 16px;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
