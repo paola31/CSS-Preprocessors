@@ -9,7 +9,7 @@
     background: linear-gradient(rgba(140,79,42,.3),rgba(140,79,42,.3)), url(/assets/BackgroundHero.png) no-repeat center;
     background-size: cover;
 
-    .learn-more-block {
+    .learn-more__block {
         flex: 100%;
         display: flex;
         position: absolute;
@@ -18,7 +18,7 @@
         left: 360px;
         top: 90px;
 
-        .h2readmore {
+        .learn-more__heading {
             color: rgba(255, 255, 255, 1);
             font-family: $main-font-family;
             font-weight: 700;
@@ -32,14 +32,14 @@
             top: -100px;
         }
 
-        .play-container {
+        .learn-more__play-container {
             position: absolute;
             width: 150px;
             height: 150px;
             left: 11px;
             top: 70px;
 
-            .play {
+            .learn-more__play {
                 color: rgba(255, 255, 255, 1);
                 scale: 80%;
                 background-color: #39c2d7;
@@ -52,7 +52,7 @@
                 top: 100px;
                 transition: all 0.5s ease;
 
-                .playcarac {
+                .learn-more__play-character {
                     font-size: 70px;
                     margin-left: 25px;
                     color: #FFFFff;
@@ -66,7 +66,7 @@
             }
         }
 
-        .h3readmore {
+        .learn-more__subheading {
             color: rgba(255, 255, 255, 50);
             font-family: $text-font-family;
             font-style: normal;

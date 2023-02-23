@@ -227,7 +227,7 @@
   left: 0px;
   margin-top: -9px;
 }
-.main .h2main {
+.main .main__h2main {
   flex-flow: column wrap;
   color: #464547;
   font-family: "Oswald", sans-serif;
@@ -241,7 +241,7 @@
   left: 265px;
   top: -34px;
 }
-.main .h2main-rigth {
+.main .main__h2main-rigth {
   display: none;
   flex-flow: column wrap;
   color: #464547;
@@ -256,7 +256,7 @@
   left: 265px;
   top: 750px;
 }
-.main .textmain {
+.main .main__textmain {
   color: rgb(102, 102, 102);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
@@ -269,7 +269,7 @@
   left: 387px;
   top: 220px;
 }
-.main .par1main {
+.main .main__par1main {
   color: rgb(0, 0, 0);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
@@ -282,17 +282,17 @@
   left: 100px;
   top: 348px;
 }
-.main .par1main .column1 {
+.main .main__par1main .par1main__column1 {
   width: 45%;
   float: left;
   text-align: justify;
 }
-.main .par1main .column2 {
+.main .main__par1main .par1main__column2 {
   width: 45%;
   float: right;
   text-align: justify;
 }
-.main .par1main-one {
+.main .main__par1main-one {
   display: none;
   color: rgb(0, 0, 0);
   font-family: "Source Sans Pro", sans-serif;
@@ -306,12 +306,12 @@
   left: 100px;
   top: 420px;
 }
-.main .par1main-one .column1 {
+.main .main__par1main-one .par1main-one__column1 {
   width: 45%;
   float: left;
   text-align: justify;
 }
-.main .readme {
+.main .main__readmore {
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
   size: 20px;
@@ -329,7 +329,7 @@
   top: 614px;
   transition: 15ms 0.8s ease-in-out;
 }
-.main .readme:hover {
+.main .main__readmore:hover {
   transform-origin: 0 0;
   transform: rotateZ(15deg);
 }
@@ -345,7 +345,7 @@
   background: linear-gradient(rgba(140, 79, 42, 0.3), rgba(140, 79, 42, 0.3)), url(/assets/BackgroundHero.png) no-repeat center;
   background-size: cover;
 }
-.learn-more .learn-more-block {
+.learn-more .learn-more__block {
   flex: 100%;
   display: flex;
   position: absolute;
@@ -354,7 +354,7 @@
   left: 360px;
   top: 90px;
 }
-.learn-more .learn-more-block .h2readmore {
+.learn-more .learn-more__block .learn-more__heading {
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -367,14 +367,14 @@
   left: 10px;
   top: -100px;
 }
-.learn-more .learn-more-block .play-container {
+.learn-more .learn-more__block .learn-more__play-container {
   position: absolute;
   width: 150px;
   height: 150px;
   left: 11px;
   top: 70px;
 }
-.learn-more .learn-more-block .play-container .play {
+.learn-more .learn-more__block .learn-more__play-container .learn-more__play {
   color: rgb(255, 255, 255);
   scale: 80%;
   background-color: #39c2d7;
@@ -387,17 +387,17 @@
   top: 100px;
   transition: all 0.5s ease;
 }
-.learn-more .learn-more-block .play-container .play .playcarac {
+.learn-more .learn-more__block .learn-more__play-container .learn-more__play .learn-more__play-character {
   font-size: 70px;
   margin-left: 25px;
   color: #FFFFff;
   transition: all 0.5s ease;
 }
-.learn-more .learn-more-block .play-container .play:hover {
+.learn-more .learn-more__block .learn-more__play-container .play:hover {
   color: white;
   background-color: #FFFFff;
 }
-.learn-more .learn-more-block .h3readmore {
+.learn-more .learn-more__block .learn-more__subheading {
   color: rgb(255, 255, 255);
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;

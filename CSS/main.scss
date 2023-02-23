@@ -9,7 +9,7 @@
     left: 0px;  
     margin-top: -9px;  
 
-    .h2main {
+    .main__h2main {
         flex-flow: column wrap;
         color: #464547;
         font-family: $main-font-family;
@@ -24,7 +24,7 @@
         top: -34px;
     }
 
-    .h2main-rigth{
+    .main__h2main-rigth{
         display: none;
         flex-flow: column wrap;
         color: #464547;
@@ -40,7 +40,7 @@
         top: 750px;
     }
 
-    .textmain {
+    .main__textmain {
         color: rgba(102, 102, 102, 1);
         font-family: $text-font-family;
         font-weight: 400;
@@ -54,7 +54,7 @@
         top: 220px;
     }
 
-    .par1main {
+    .main__par1main {
         color: rgba(0, 0, 0, 1);
         font-family: $text-font-family;
         font-weight: 400;
@@ -67,20 +67,20 @@
         left: 100px;
         top: 348px;
 
-        .column1{
+        .par1main__column1{
             width: 45%;
             float: left;
             text-align: justify;
         }
         
-        .column2{
+        .par1main__column2{
             width: 45%;
             float: right;
             text-align: justify;
         }
     }
 
-    .par1main-one {
+    .main__par1main-one {
         display: none;
         color: rgba(0, 0, 0, 1);
         font-family: $text-font-family;
@@ -94,14 +94,14 @@
         left: 100px;
         top: 420px;
 
-        .column1{
+        .par1main-one__column1{
             width: 45%;
             float: left;
             text-align: justify;
         }
     }
 
-    .readme {
+    .main__readmore {
         color: rgba(255, 255, 255, 1);
         font-family: $main-font-family;
         size: 20px;
@@ -120,7 +120,7 @@
         transition: 15ms 0.8s ease-in-out; 
     }
 
-    .readme:hover {
+    .main__readmore:hover {
         transform-origin:  0 0;
         transform: rotateZ(15deg) ;
         
