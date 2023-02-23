@@ -59,10 +59,14 @@
                     transition: all 0.5s ease;
                 }
             }
-                
-            .play:hover {
+
+            .learn-more__play:hover {
                 color: white;
                 background-color: #FFFFff;
+            }
+
+            .learn-more__play:hover .learn-more__play-character {
+                color: #39c2d7;
             }
         }
 

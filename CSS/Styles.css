@@ -393,9 +393,12 @@
   color: #FFFFff;
   transition: all 0.5s ease;
 }
-.learn-more .learn-more__block .learn-more__play-container .play:hover {
+.learn-more .learn-more__block .learn-more__play-container .learn-more__play:hover {
   color: white;
   background-color: #FFFFff;
+}
+.learn-more .learn-more__block .learn-more__play-container .learn-more__play:hover .learn-more__play-character {
+  color: #39c2d7;
 }
 .learn-more .learn-more__block .learn-more__subheading {
   color: rgb(255, 255, 255);
@@ -423,10 +426,10 @@
   top: 2161px;
   margin: -5px;
 }
-.footer .info-mobile {
+.footer .footer__info-mobile {
   display: none;
 }
-.footer .info-mobile .columna1-fo {
+.footer .footer__info-mobile .footer__columna1 {
   flex: 1;
   margin: 0px;
   margin-top: 26px !important;
@@ -434,16 +437,16 @@
   text-align: center !important;
   margin-left: 6% !important;
 }
-.footer .info-mobile .columna1-fo .svg-path {
+.footer .footer__info-mobile .footer__columna1 .svg-path {
   fill: #FFFFff !important;
 }
-.footer .info-mobile .columna1-fo .default-font {
+.footer .footer__info-mobile .footer__columna1 .footer__default-font {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 16px !important;
   font: style 50px;
 }
-.footer .info-mobile .columna1-fo .address {
+.footer .footer__info-mobile .footer__columna1 .footer__address {
   color: rgba(255, 255, 255, 0.4);
   font-family: "Source Sans Pro", sans-serif;
   width: 480px !important;
@@ -455,7 +458,7 @@
   line-height: 16px;
   text-align: center !important;
 }
-.footer .info-mobile .columna1-fo .link {
+.footer .footer__info-mobile .footer__columna1 .footer__link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
   font-family: "Source Sans Pro", sans-serif;
@@ -468,7 +471,7 @@
   line-height: 12px;
   text-align: left;
 }
-.footer .info {
+.footer .footer__info {
   display: flex;
   margin-left: 60px;
   font-family: "Source Sans Pro", sans-serif;
@@ -481,7 +484,7 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.footer .info .columna1-fo {
+.footer .footer__info .footer__columna1 {
   flex: 1;
   text-align: left;
   margin: 0%;
@@ -489,24 +492,24 @@
   font-size: 22px;
   box-sizing: border-box;
 }
-.footer .info .columna1-fo .svg-path {
+.footer .footer__info .footer__columna1 .svg-path {
   fill: #55C2D8;
   filter: invert(0%);
 }
-.footer .info .columna1-fo .default-font {
+.footer .footer__info .footer__columna1 .footer__default-font {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 16px !important;
   font: style 50px;
 }
-.footer .info .columna2-fo {
+.footer .footer__info .footer__columna2 {
   flex: 1;
   text-align: center;
   margin: 0%;
   margin-top: 20px;
   box-sizing: border-box;
 }
-.footer .info .columna2-fo .address {
+.footer .footer__info .footer__columna2 .footer__address {
   color: rgba(255, 255, 255, 0.4);
   font-family: "Source Sans Pro", sans-serif;
   width: 400px;
@@ -518,7 +521,7 @@
   line-height: 16px;
   text-align: left;
 }
-.footer .info .columna2-fo .link {
+.footer .footer__info .footer__columna2 .footer__link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
   font-family: "Source Sans Pro", sans-serif;
@@ -531,7 +534,7 @@
   line-height: 12px;
   text-align: left;
 }
-.footer .info .columna3-fo {
+.footer .footer__info .footer__columna3 {
   flex: 1;
   position: relative;
   text-align: center;
@@ -539,7 +542,7 @@
   margin-top: 0px;
   box-sizing: border-box;
 }
-.footer .info .columna3-fo .rights {
+.footer .footer__info .footer__columna3 .footer__rights {
   color: rgba(255, 255, 255, 0.4);
   font-family: "Source Sans Pro", sans-serif;
   width: 400px;
