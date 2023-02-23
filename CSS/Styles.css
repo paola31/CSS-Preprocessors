@@ -21,7 +21,7 @@
   text-align: center;
   left: 500px;
 }
-.header .menu {
+.header .header__menu {
   display: none;
   flex-direction: column;
   background-color: #f1f1f1;
@@ -32,7 +32,7 @@
   right: 0;
   z-index: 10;
 }
-.header .menu .navbar-small {
+.header .header__menu .navbar-small {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -45,17 +45,25 @@
   z-index: 10;
   align-items: center;
 }
-.header .menu .navbar-small .navbar-brand {
+.header .header__menu .navbar-small .navbar-small__brand {
   font-weight: bold;
   font-size: 18px;
   color: white;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
 }
-.header .menu .navbar-small .righter {
+.header .header__menu .navbar-small .navbar-small__righter {
   margin-left: 500%;
 }
-.header .navbar {
+.header .header__menu .navbar-small .navbar-small__toggle hidden {
+  display: none;
+}
+.header .header__menu .navbar-small .navbar-small__icon {
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+.header .header__nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -67,14 +75,14 @@
   left: 500px;
   z-index: 10;
 }
-.header .navbar .navbar-brand {
+.header .header__nav .header__brand {
   font-weight: bold;
   font-size: 18px;
   color: white;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
 }
-.header .navbar .navbar-nav {
+.header .header__nav .header__nav-list {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -82,11 +90,11 @@
   list-style: none;
   margin-left: 150px;
 }
-.header .navbar .navbar-nav .nav-item {
+.header .header__nav .header__nav-list .header__nav-item {
   margin: 0 10px;
   color: white;
 }
-.header .navbar .navbar-nav .nav-item .nav-link {
+.header .header__nav .header__nav-list .header__nav-item .header__nav-link {
   font-size: 16px;
   color: white;
   text-decoration: none;
